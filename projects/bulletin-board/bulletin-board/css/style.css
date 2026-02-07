@@ -18,13 +18,9 @@
 .butterfly {
     background-color: lightblue;
 }
-
-    
 .red {
     background-color: rgb(242, 61, 61);
 }
-
-
 .polaroid {
     background-color: white;
     padding: 10px;
@@ -47,10 +43,10 @@
 
 .yellow {
     background-color: blueviolet;
-    
+
 }
 
-.heart{
+.heart {
     width: 100%;
     padding: 20;
     
