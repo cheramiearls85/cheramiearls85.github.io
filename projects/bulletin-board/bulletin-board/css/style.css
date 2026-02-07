@@ -1,0 +1,57 @@
+.post-it {
+    background-color: yellow;
+    width: 200px;
+    min-height: 200px;
+    padding: 24px;
+    margin: 24px;
+    vertical-align: top;
+    display: inline-block;
+    position: relative;
+    
+}
+.pink {
+    background-color: rgb(230, 113, 130);
+}
+.purple {
+    background-color: plum;
+}
+.butterfly {
+    background-color: lightblue;
+}
+
+    
+.red {
+    background-color: rgb(242, 61, 61);
+}
+
+
+.polaroid {
+    background-color: white;
+    padding: 10px;
+    padding-bottom: 20px;
+}
+.p-img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    
+}
+
+.salmon {
+    background-color: salmon;
+}
+
+.crab {
+    width: 100%;
+}
+
+.yellow {
+    background-color: blueviolet;
+    
+}
+
+.heart{
+    width: 100%;
+    padding: 20;
+    
+}
