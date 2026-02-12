@@ -1,0 +1,18 @@
+#morning{
+    background-color: yellow;
+    padding: 25px;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 50px;
+}
+#afternoon {
+    background-color: greenyellow;
+    padding: 25px;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 50px;
+}
+#evening {
+    background-color: rgb(88, 88, 233);
+    padding: 25px;
+    border-bottom: 2px solid goldenrod;
+    margin-bottom: 50px;
+}
