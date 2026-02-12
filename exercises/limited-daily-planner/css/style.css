@@ -4,6 +4,9 @@
     border-bottom: 2px solid goldenrod;
     margin-bottom: 50px;
 }
+#morning .completed {
+    text-decoration: line-through;
+}
 #afternoon {
     background-color: greenyellow;
     padding: 25px;
