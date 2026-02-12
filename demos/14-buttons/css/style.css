@@ -1,0 +1,31 @@
+div {
+    background-color: lavender;
+    padding: 25px;
+    margin-bottom: 50px;
+}
+div p{
+    margin-top: 0px;
+}
+.btn{
+    text-decoration: none;
+    background-color: #99edc3;
+    padding: 10px 30px;
+    display: inline-block;
+    color: black;
+    border-radius: 15px;
+    box-shadow: 2px -2px 5px #115;
+    border: 2px solid #99edc3;
+    transition: backgound-color 5s, color 5s;
+}
+.btn:hover {
+    background-color: transparent;
+}
+.btn.alt {
+    background-color: transparent;
+    border-color: lightpink;
+    color: aqua;
+}
+btn.alt:hover {
+    background-color: lightpink;
+    color: #fff;
+}
