@@ -6,7 +6,9 @@
 }
 #morning .completed {
     text-decoration: line-through;
+    
 }
+#morning a
 #afternoon {
     background-color: greenyellow;
     padding: 25px;
