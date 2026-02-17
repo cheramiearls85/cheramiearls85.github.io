@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     box-sizing: border-box;
 }
 body{
     margin: 0px;
-    font-family: sans-serif;
+    font-family: "Libre Baskerville", serif;
+}
+h1,h2{
+    font-family: "Noto Serif", serif;
+}
+img{
+    width: 100%;
+    object-fit: cover;
 }
 .single-column{
     width: 80%;
@@ -12,12 +20,17 @@ body{
     margin-right: auto;
 }
 .light-container{
-    background-color: lightgreen;
+    background-color: #eb1928;
     padding: 48px 0px;
     
 }
 .dark-container{
-    background-color: darkgreen;
+    background-color: #ffffff;
+    color: black;
+    padding: 48px 0px;
+}
+.last-container{
+    background-color: #234aa3;
     color: white;
     padding: 48px 0px;
 }
