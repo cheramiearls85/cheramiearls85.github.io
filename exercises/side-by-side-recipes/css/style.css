@@ -22,9 +22,33 @@ img{
     margin: 0px;
     letter-spacing: 2px;
 }
-.content ul{
-    display: flex1;
+.content{
+    display: flex;
 }
-.content ul{
-    display: flex2;
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 5%;
+    font-size: 15px;
+}
+.time {
+    display: flex;
+    gap: 5%;
+    text-align: center;
+}
+.add{
+    display:flex;
+    gap: 5%;
+    text-align: right;
+}
+.card{
+    flex:1
+    border:0px
+    padding: 0px;
+    text-align: center;
+}
+.image-container img{
+    width: 50%;
+    height: auto;
+    display: flex;
 }
