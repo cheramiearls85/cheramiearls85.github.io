@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column{
+    width: 90%;
+    max-width: 900px;
+    margin: 0 auto;
+}
+header{
+    background-color: #dda15e;
+}
+header nav{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav .logo img{
+    margin-right: auto;
+}
