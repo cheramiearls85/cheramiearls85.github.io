@@ -14,3 +14,6 @@ img {
 #layout{
     display: flex;
 }
+product a{
+    display: inline-block;
+}
