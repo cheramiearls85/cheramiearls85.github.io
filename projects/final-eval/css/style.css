@@ -1,0 +1,23 @@
+/* Resets Below */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+.single-column{
+    margin: opx auto;
+    width: 90%;
+    max-width: 1200px;
+}
+.card-container{
+    display:flex;
+    gap: 25px;
+    justify-content: center;
+}
