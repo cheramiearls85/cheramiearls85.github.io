@@ -16,7 +16,36 @@ img {
     max-width: 1280px;
     margin: 0px auto;
 }
-basic-gal{
+.basic-gal{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 25px;
+    border: 0.5px solid #4a2c8a;
+    padding: 25px;
+}
+.cropped-gal{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    gap: 25px;
+    border: 0.5px solid #4a2c8a;
+    padding: 25px;
+}
+.cropped-gal img {
+    height: 100%;
+}
+.hm-gal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.hm-gal img {
+    flex: 1;
+    height: 250px;
+}
+.vm-gal{
+    columns: 3 auto;
+}
+.vm-gal img {
+    margin-bottom: 25px;
 }
