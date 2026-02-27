@@ -1,0 +1,58 @@
+/* Resets Below */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+/* Resets Above */
+#centered-hero{
+    background-image: url("../images/hero-1.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.content h1{
+    font-size: 72px;
+    margin: 0px;
+
+}
+.content p{
+    font-size: 20px;
+    margine: 15px 0px 25px;
+
+}
+.content .btn{
+    background-color: rgb(161, 114, 12);
+    display: inline-block;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: white;
+}
+.cropped-gal img {
+    height: 100%;
+}
+.hm-gal{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.hm-gal img {
+    flex: 1;
+    height: 250px;
+}
+.vm-gal{
+    columns: 3 auto;
+}
+.vm-gal img {
+    margin-bottom: 25px;
+}
