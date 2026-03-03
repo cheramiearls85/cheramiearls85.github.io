@@ -54,4 +54,21 @@ header nav .logo {
 }
 
 /* MEDIA QUERIES */
-@media screen and ()
+/* tablet query */
+@media screen and (max-width:900px)and (min-width:730px) {
+
+}
+header nav{
+    flex-wrap:wrap;
+}
+header nav .logo{
+    flex: 100%;
+    margin-right: 0px;
+    text-align: center;
+}
+.single-column-layout h1 {
+    font-size: 32px;
+}
+#basic-grid-gallery {
+    grid-template-columns: 1fr;
+}
