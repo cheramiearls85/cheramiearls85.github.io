@@ -1,0 +1,104 @@
+/* 
+    basic page layout setup 
+*/ 
+* { 
+    box-sizing: border-box; 
+} 
+ 
+body { 
+    margin: 0px; 
+    font-family: sans-serif; 
+} 
+ 
+/* 
+    Navbar setup and configuration 
+*/ 
+#nav-bar {
+   display: flex;
+    justify-content: center;
+  
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: rgb(3, 0, 0);
+    padding: 24px;
+}
+#hero-4 {
+    background-image: url("../images/urban-hi-res-3q76.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-4 .hero-content {
+    text-align: center;
+    color: rgb(240, 233, 233);
+    padding-top: 100px;
+}
+
+#hero-4 h2 {
+    font-size: 72px;
+    margin-bottom: 36px;
+}
+
+#hero-4 h4 {
+    font-size: 24px;
+    margin: 0px;
+    
+}
+
+#hero-4 a {
+    font-size: 14px;
+    display: inline-block;
+    background-color: white;
+    color: #333333;
+    text-decoration: none;
+    padding: 24px;
+    margin-top: 6px;
+    margin-right: 12px;
+    margin-left: 12px;
+}
+.cropped-grid-gallery { 
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr; 
+ 
+    /* 
+        optional extra properties, 
+        customize as necessary 
+    */ 
+    padding: 20px; 
+    border: 0.5px solid #5d4d4d; 
+} 
+ 
+.cropped-grid-gallery img { 
+    width: 100%;
+}
+.single-column {
+    max-width: 1000px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #c7c5c0;
+    color: #bfefff;
+    padding: 48px;
+}
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    flex: 1;
+    border: 3px solid #bfefff;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
